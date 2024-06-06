@@ -1,0 +1,124 @@
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    margin: 0;
+    
+}
+
+.side-banner {
+    background-image: url(wp9723255.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 40vw;
+    font-family: "Norse";
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 60px;
+    
+    
+}
+
+.logo-container {
+    background-color: black;
+    opacity: 70%;
+    
+    
+}
+
+.logo-container > .odin-logo {
+    opacity: 100%;
+    width: 100px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+.logo-text {
+    font-size: 100px;
+    position: relative;
+    bottom: 25px;
+    left: 10px;
+    
+}
+
+/*form*/
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: #F9F9F9;;
+    width: 40vw;
+
+}
+
+.form-head p {
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-right: 20px;
+}
+
+.tease {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+.form-body {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 5px 2px -2px lightgrey;;
+
+}
+
+.form-body input {
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    height: 20px;
+    width: 200px;
+}
+.form-body .start {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 20px;
+}
+.form-body .user-input {
+    display: flex; 
+    flex-direction: row;
+    padding-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.form-body .column-1 {
+    padding-right: 30px;
+
+}
+.form-row {
+    
+    text-align: left;
+
+
+}
+.form-row label {
+    margin-right: 10px;
+    display: block;
+    margin: 5px 0;
+    margin-top: 15px;
+}
+
+.bottom {
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .form-body .user-input {
+        display: flex;
+        flex-direction: column;
+    }
+}
