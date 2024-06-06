@@ -10,7 +10,7 @@
     <div class="side-banner">
         <div class="logo-container">
             <img class="odin-logo" src="odin-lined.png" alt="odin logo with transparent background">
-            <span class="logo-text">odin</span>
+            <span class="logo-text" style="opacity:100%">odin</span>
         </div>
     </div>
     
@@ -29,25 +29,25 @@
                     <div class="column-1">
                         <div class="form-row">
                             <label for="first-name">First Name</label>
-                            <input type="text" name="first-name" id="first-name">
+                            <input type="text" required name="first-name" id="first-name">
                         </div>
                         <div class="form-row">
-                            <label for="email">Email</label><input type="email" id="first-name" name="email">
+                            <label for="email">Email</label><input type="email" required id="first-name" name="email">
                         </div>
                         <div class="form-row bottom">
-                            <label for="password">Password</label><input type="password" id="password" name="password">
+                            <label for="password">Password</label><input type="password" id="password" required name="password">
                         </div>
                     </div>
                     <div class="column-2">
                         <div class="form-row">
                             <label for="last-name">Last Name</label>
-                            <input type="text" name="last-name" id="last-name">
+                            <input type="text" name="last-name" id="last-name" required>
                         </div>
                         <div class="form-row">
-                            <label for="number">Phone Number</label><input type="number" id="number" name="number">
+                            <label for="number">Phone Number</label><input type="number" required id="number" name="number">
                         </div>
                         <div class="form-row bottom">
-                            <label for="confirm-password">Confirm Password</label><input type="password" id="confirm-password" name="confirm-password">
+                            <label for="confirm-password">Confirm Password</label><input type="password" required id="confirm-password" name="confirm-password">
                         </div>
 
 
@@ -59,7 +59,10 @@
                 </div>
 
             </div>
-            <div class="form-footer"></div>
+            <div class="form-footer">
+                <input type="submit">
+                <p>Already a member ? <span class=link>Login</span> here</p>
+            </div>
     </form>
 
     
